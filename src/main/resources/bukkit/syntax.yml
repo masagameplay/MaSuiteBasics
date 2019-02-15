@@ -1,0 +1,5 @@
+gm:
+  change: "&cCorrect syntax: /gm <gamemode> [player]"
+  unknown-gamemode: "&cUnknown gamemode. Available gamemodes are survival, creative, adventure, spectator or 0, 1, 2, 3."
+fly:
+  change: "&cCorrect syntax: /fly [player]"
