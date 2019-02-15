@@ -1,0 +1,11 @@
+player-not-online: "&cPlayer is not online."
+only-for-players: "This command can only be executed by players."
+no-permission: "&cYou have no authority to do this."
+fly:
+  enabled-own: "&7Flymode activated."
+  disabled-own: "&7Flymode deactivated."
+  enabled-other: "&7You activated the flight mode of &a%target%&7."
+  disabled-other: "&7You deactivated the flight mode of &a%target%&7."
+gm:
+  changed-own: "&7Your gamemode has been changed to &a%gamemode%&7."
+  changed-other: "&7You changed the gamemode from &a%target% &7to &a%gamemode%&7."
