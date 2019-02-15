@@ -1,0 +1,13 @@
+name: MaSuiteBasics
+version: 0.1
+depends: [MaSuiteCore]
+description: Simple yet powerfull commands
+author: Aljosha
+main: fi.matiaspaavilainen.masuitebasics.MaSuiteBasics
+api-version: 1.13
+commands:
+  gamemode:
+    usage: /gm <gamemode> [player]
+    aliases: [gm]
+  fly:
+    usage: /fly [player]
