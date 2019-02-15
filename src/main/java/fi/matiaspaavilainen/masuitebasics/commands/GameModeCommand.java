@@ -41,7 +41,7 @@ public class GameModeCommand implements CommandExecutor {
             }
             return true;
         }
-        if (commandSender.hasPermission("masuitebasics.gm.others")) { //TODO perm
+        if (commandSender.hasPermission("masuitebasics.gm.others")) {
             Player target = Bukkit.getPlayerExact(args[1]);
             if (target != null) {
                 if (setGamemode(target, args[0])) {

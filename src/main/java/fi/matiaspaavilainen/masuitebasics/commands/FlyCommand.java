@@ -21,7 +21,7 @@ public class FlyCommand implements CommandExecutor {
             return true;
         }
         if (args.length == 0) {
-            if (commandSender.hasPermission("masuitebasics.fly")) { //TODO perm
+            if (commandSender.hasPermission("masuitebasics.fly")) {
                 if (commandSender instanceof Player) {
                     Player player = (Player) commandSender;
                     if (player.getAllowFlight()) {
@@ -39,7 +39,7 @@ public class FlyCommand implements CommandExecutor {
             }
             return true;
         }
-        if (commandSender.hasPermission("masuitebasics.fly.others")) { //TODO perm
+        if (commandSender.hasPermission("masuitebasics.fly.others")) {
             Player target = Bukkit.getPlayerExact(args[0]);
             if (target != null) {
                 if (target.getAllowFlight()) {
